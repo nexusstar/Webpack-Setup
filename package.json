@@ -1,0 +1,29 @@
+{
+  "name": "webpack-setup",
+  "version": "1.0.0",
+  "description": "Sample Webpack Setup for Any Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --history-api-fallback --inline --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nexusstar/Webpack-Setup.git"
+  },
+  "keywords": [
+    "Webpack",
+    "Setup"
+  ],
+  "author": "Petar Nikov <petar.nikov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nexusstar/Webpack-Setup/issues"
+  },
+  "homepage": "https://github.com/nexusstar/Webpack-Setup#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
